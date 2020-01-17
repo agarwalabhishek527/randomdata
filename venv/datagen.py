@@ -31,17 +31,17 @@ def Choose_associationvalue():
 #     return ''.join(random.choice(ChooseAnOffer()) for i in range(stringLength))
 print(offers_from)
 lst = []
-for i in range(1000000):
+for i in range(5000000):
     lst.append(Choose_associationtype())
 
 
 newlst = []
-for i in range(1000000):
+for i in range(5000000):
     newlst.append(Choose_associationvalue())
 
 
 data2 = pd.DataFrame(
-    {"userid": np.arange(1, 1000001), "associationtype": lst, "associationvalue":newlst})
+    {"userid": np.arange(1, 5000001), "associationtype": lst, "associationvalue":newlst})
 #          {"userid": np.arange(1, 100),  "associationrank": np.random.randint(low=0, high=100, size=99)})
 path = os.getcwd()
 data2.to_csv(path + "/randata.csv",index=False)
