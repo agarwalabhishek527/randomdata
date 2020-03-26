@@ -1,2 +1,1 @@
-INSERT INTO publish.fctcustomerpredictions (eltv )
-VALUES (345);
+ALTER TABLE publish.fctcustomerpredictions DROP COLUMN eltv;
