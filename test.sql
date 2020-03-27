@@ -1,2 +1,1 @@
-INSERT INTO "publish"."dimcustomer" (isstudent )
-VALUES (false);
+select * from "publish"."dimcustomer"
