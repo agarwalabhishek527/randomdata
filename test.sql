@@ -1,1 +1,1 @@
-select *refrdrfrferrerfeews from "publish"."dimcustomer"
+select * from "publish"."dimcustomer"
