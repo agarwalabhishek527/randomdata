@@ -1,2 +1,2 @@
-INSERT INTO publish.fctcustomerpredictions (eltv )
-VALUES (789);
+INSERT INTO "publish"."dimcustomer" (isstudent )
+VALUES (false);
