@@ -1,1 +1,1 @@
-select * from "publish"."dimcustomer"
+select * from "publish"."dimcustomer" LIMIT 5;
