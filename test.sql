@@ -1,1 +1,3 @@
-select * from "publish"."dimcustomer" LIMIT 5;
+update "publish"."dimcustomer"
+set isurban=true
+where id=0
